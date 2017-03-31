@@ -1,0 +1,47 @@
+---
+spring:
+  application:
+    name: microservice-eureka-server
+  profiles: peer1
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: eureka-server-peer1
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka-server-peer2:8762/eureka/,http://eureka-server-peer3:8763/eureka/
+
+---
+spring:
+  application:
+    name: microservice-eureka-server
+  profiles: peer2
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: eureka-server-peer2
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka-server-peer1:8761/eureka/,http://eureka-server-peer3:8763/eureka/
+
+---
+spring:
+  application:
+    name: microservice-eureka-server
+  profiles: peer3
+server:
+  port: 8763
+eureka:
+  instance:
+    hostname: eureka-server-peer3
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka-server-peer1:8761/eureka/,http://eureka-server-peer2:8762/eureka/
