@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * @author: 会跳舞的机器人
  * @date: 2017/3/29 16:55
- * @description:用户服务的fallback
+ * @description: 用户服务的fallback
  */
 @Component
 public class UserFeignClientHystrix implements UserFeignClient {

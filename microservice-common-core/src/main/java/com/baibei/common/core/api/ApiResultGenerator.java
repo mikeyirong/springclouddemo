@@ -3,7 +3,7 @@ package com.baibei.common.core.api;
 /**
  * @author: 会跳舞的机器人
  * @date: 2017/3/29 16:58
- * @description:ApiResult对象的生成工具
+ * @description: ApiResult对象的生成工具
  */
 public class ApiResultGenerator {
 
@@ -43,6 +43,15 @@ public class ApiResultGenerator {
      */
     public static ApiResult authenticationError() {
         return generate(BaseCodeMsg.AUTHENTICATION_ERROR.getCode(), BaseCodeMsg.AUTHENTICATION_ERROR.getMsg(), null);
+    }
+
+    /**
+     * accessToken为空
+     *
+     * @return
+     */
+    public static ApiResult accessTokenIsNull() {
+        return generate(BaseCodeMsg.ACCESSTOKEN_IS_NULL.getCode(), BaseCodeMsg.ACCESSTOKEN_IS_NULL.getMsg(), null);
     }
 
     /**

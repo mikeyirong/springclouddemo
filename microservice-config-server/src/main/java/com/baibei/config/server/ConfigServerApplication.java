@@ -7,9 +7,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * @author: 会跳舞的机器人
- * @email:2268549298@qq.com
  * @date: 17/2/19 下午2:35
- * @description:分布式配置中心启动主类
+ * @description: 分布式配置中心启动主类
  */
 @SpringBootApplication
 @EnableConfigServer

@@ -7,9 +7,8 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @author: 会跳舞的机器人
- * @email:2268549298@qq.com
  * @date: 17/2/17 上午9:51
- * @description:服务注册与发现
+ * @description: 服务注册与发现
  */
 @SpringBootApplication
 @EnableEurekaServer

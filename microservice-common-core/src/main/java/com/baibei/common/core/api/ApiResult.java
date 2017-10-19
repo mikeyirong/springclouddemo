@@ -3,7 +3,7 @@ package com.baibei.common.core.api;
 /**
  * @author: 会跳舞的机器人
  * @date: 2017/3/29 16:58
- * @description:API统一返回的格式模板
+ * @description: API统一返回的格式模板
  */
 public class ApiResult {
     /**

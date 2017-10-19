@@ -8,9 +8,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author: 会跳舞的机器人
- * @email:2268549298@qq.com
  * @date: 17/2/17 上午9:55
- * @description:用户服务提供者
+ * @description: 用户服务提供者
  */
 @SpringBootApplication
 @MapperScan("com.baibei.provider.user.dao")

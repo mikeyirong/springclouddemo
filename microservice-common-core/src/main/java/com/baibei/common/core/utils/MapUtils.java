@@ -4,9 +4,8 @@ import java.util.Map;
 
 /**
  * @author: 会跳舞的机器人
- * @email:2268549298@qq.com
  * @date: 17/2/17 上午11:38
- * @description:Map集合工具类
+ * @description: Map集合工具类
  */
 public class MapUtils {
 

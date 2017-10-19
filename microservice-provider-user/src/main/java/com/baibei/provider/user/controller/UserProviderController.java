@@ -12,9 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author: 会跳舞的机器人
- * @email:2268549298@qq.com
  * @date: 17/2/17 上午10:01
- * @description:用户相关rest API
+ * @description: 用户相关rest API
  */
 @RestController
 @RequestMapping("/user")

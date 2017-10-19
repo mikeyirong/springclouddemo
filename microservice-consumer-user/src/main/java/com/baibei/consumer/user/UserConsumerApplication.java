@@ -8,9 +8,8 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 /**
  * @author: 会跳舞的机器人
- * @email:2268549298@qq.com
  * @date: 17/2/17 上午11:45
- * @description:用户服务消费者
+ * @description: 用户服务消费者
  */
 @SpringBootApplication
 @EnableDiscoveryClient
